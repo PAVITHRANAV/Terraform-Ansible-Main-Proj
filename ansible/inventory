@@ -1,0 +1,2 @@
+[managed_nodes]
+15.206.189.21 ansible_user=ubuntu ansible_ssh_private_key_file=/home/ubuntu/.ssh/devops-key.pem

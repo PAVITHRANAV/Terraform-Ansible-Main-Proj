@@ -1,0 +1,9 @@
+---
+- name: Configure Managed Node
+  hosts: managed_nodes
+  become: yes
+
+  roles:
+    - java
+    - docker
+    - jenkins
